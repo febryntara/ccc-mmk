@@ -16,4 +16,5 @@ gameplay : <iframe width="560" height="315" src="https://www.youtube.com/embed/T
 
 font : {
 pubg-font: https://hyperpix.net/fonts/playerunknowns-battlegrounds-pubg-font/
+teko : https://fonts.googleapis.com/css2?family=Teko&display=swap
 }

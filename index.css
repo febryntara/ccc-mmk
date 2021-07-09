@@ -8,6 +8,9 @@
   font-weight: normal;
   font-style: normal;
 }
+body {
+  color: white;
+}
 * {
   padding: 0;
   margin: 0;
@@ -20,9 +23,6 @@ a {
   text-decoration: none;
   color: white;
 }
-body {
-  font-family: pubg-font;
-}
 /* GLOBAL CSS END */
 
 /* HERO CONTAINER START */
@@ -33,6 +33,38 @@ body {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
+}
+.hero-box {
+  width: 40%;
+  margin-top: 150px;
+  margin-left: 100px;
+}
+.hero-box > p {
+  margin-top: 20px;
+  font-size: .8em;
+}
+.hero-box > h3 {
+  font-family: 'Teko';
+  letter-spacing: 2px;
+}
+.hero-logo {
+  width: 50%;
+}
+.hero-text {
+  font-family: 'Teko';
+  font-size: 1.2em;
+}
+.hero-button {
+  padding: 10px 15px;
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+  border: none;
+  box-shadow: 3px 3px 1px 1px #FDFDFF;
+  transition: .2s;
+}
+.hero-button:active {
+  transform: scale(.8);
 }
 /* HERO CONTAINER END */
 
@@ -46,6 +78,7 @@ body {
   gap: 20px;
 }
 .nav-items {
+  font-family: pubg-font;
   height: 100%;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(50px, 100px));
@@ -65,6 +98,7 @@ body {
 .nav-toggle {
   position: relative;
   transform: scale(1);
+  display: none;
 }
 .nav-toggle > input {
   cursor: pointer;
@@ -101,6 +135,7 @@ body {
 /* NAVBAR END */
 /* MOBILE BREAKPOINTS START */
 @media (max-width:576px){
+  /* NAVBAR START */
   .nav-container {
     box-sizing: border-box;
     justify-items: right;
@@ -123,10 +158,18 @@ body {
     font-size: 1.5em;
   }
   .nav-toggle {
-    margin: 5px;
+    display: inherit;
+    margin: 5px 10px;
   }
   .nav-restore {
     transform: translateY(0);
   }
+  /* NAVBAR END */
+  /* HERO CONTAINER START */
+  .hero-container {
+    background-image: url(./assets/images/pubgP1.jpg);
+    
+  }
+  /* HERO CONTAINER END */
 }
 /* MOBILE BREAKPOINTS END */
