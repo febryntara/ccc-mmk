@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'pubg-font';
+    src: url('headlinerno.45_demo-webfont.woff2') format('woff2'),
+         url('headlinerno.45_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
