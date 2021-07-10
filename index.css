@@ -69,6 +69,7 @@ a {
   border: none;
   box-shadow: 3px 3px 1px 1px #FDFDFF;
   transition: .2s;
+  cursor: pointer;
 }
 .hero-button:active {
   transform: scale(.8);
@@ -165,8 +166,11 @@ a {
   width: 100%;
   height: 100vh;
   top: 0;
+  background-image: url(./assets/images/pubg4.png);
+  background-size: cover;
   background-color: rgba(0, 0, 0,.5);
   display: none;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   transition: .2s;
@@ -174,25 +178,48 @@ a {
 .modal-restore {
   display: flex;
 }
+.modal-alert-success {
+  background-color: chartreuse;
+  padding: 5px 10px;
+  display: none;
+}
+.modal-alert-fail {
+  background-color: rgb(255, 64, 64);
+  padding: 5px 10px;
+  display: none;
+}
 .modal-form {
-  padding: 5px;
+  padding: 10px 15px;
   display: flex;
   flex-direction: column;
   width: 200px;
   /* height: 100px; */
-  background-color: black;
+  background-color: white;
   align-items: center;
   position: relative;
 }
+.modal-form > h3 {
+  font-family: pubg-font;
+  letter-spacing: 2px;
+  color: black;
+  margin-bottom: 5px;
+}
+.modal-form > p {
+  color: black;
+  font-family: "Teko";
+  text-align: center;
+  font-size: 0.8em;
+  margin-bottom: 10px;
+}
 .modal-form > span {
   position: absolute;
-  right: -8px;
-  top: -8px;
-  background-color: black;
+  right: 0px;
+  top: 0px;
   display: block;
   padding: 5px;
   border-radius: 10px;
   cursor: pointer;
+  color: black;
 }
 .modal-input {
   margin: 10px 15px;
@@ -200,9 +227,25 @@ a {
   height: 30px;
 }
 .modal-button {
-  width: 50px;
-  padding: 5px 10px;
+  width: 100px;
+  padding: 5px 0;
   box-sizing: content-box;
+  display: flex;
+  justify-content: center;
+  background-color: black;
+  border: unset;
+  color: white;
+  font-family: pubg-font;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.modal-loading {
+  width: 15px;
+  margin-right: 2px;
+  display: none;
+}
+.modal-do-loading {
+  display: inherit;
 }
 /* MODAL PRE REGISTER END */
 /* MOBILE BREAKPOINTS START */
@@ -252,10 +295,10 @@ a {
   .hero-container {
     background-image: url(./assets/images/pubgP1.jpg);
     background-position: 0 0;
-    padding-bottom: 200px;
+    height: 100vh;
   }
   .hero-box {
-    margin-top: 150px;
+    margin-top: 100px;
     grid-template-columns: 1fr;
   }
   .hero-content {

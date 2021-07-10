@@ -84,11 +84,21 @@
     <!-- HERO CONTENT END -->
     <!-- MODAL PRE REGISTER START -->
     <div class="modal-container">
+      <div class="modal-alert-success">
+        <p><strong>Register Succesfull!</strong> standby for New State!</p>
+      </div>
+      <div class="modal-alert-fail">
+        <p><strong>Register Failed!</strong> please try again!</p>
+      </div>
       <form name="dataPreReg" class="modal-form">
         <h3>PRE REGISTER</h3>
+        <p>Pre-register today to gain early access of the PUBG : New State.</p>
         <input class="modal-input" type="email" name="email" placeholder="Type Your Email Here" required/>
         <input class="modal-input" type="text" name="name" placeholder="Type Your Name Here" />
-        <button class="modal-button" type="submit">Submit</button>
+        <button class="modal-button" type="submit">
+          <img class="modal-loading" src="./assets/icons/loading-buffering.gif" alt="">
+          Submit
+        </button>
         <span>X</span>
       </form>
     </div>
