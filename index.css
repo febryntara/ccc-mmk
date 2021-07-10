@@ -372,7 +372,7 @@ a {
   /* HERO CONTAINER START */
   .hero-container {
     background-image: url(./assets/images/pubgP1.jpg);
-    background-position: 0 0;
+    background-position: center;
     height: 100vh;
   }
   .hero-box {
@@ -403,6 +403,9 @@ a {
   /* MODAL PRE REGISTER END */
 
   /* ABOUT CONTAINER START */
+  .about-container {
+    background-position-x: -60px;
+  }
   .about-zigzag {
     top: 10px;
     left: 10px;
