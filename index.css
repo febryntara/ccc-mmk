@@ -174,9 +174,16 @@ body {
     width: 100%;
     height: 100vh;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(5, 5, 5);
     transform: translateY(-100%);
     transition: .3s;
+    z-index: 9;
+  }
+  .nav-items > img {
+    position: absolute;
+    bottom: 0;
+    filter: brightness(0.5);
+    width: 70%;
   }
   .nav-item {
     filter: brightness(1);
@@ -185,6 +192,7 @@ body {
   .nav-toggle {
     display: inherit;
     margin: 5px 10px;
+    z-index: 10;
   }
   .nav-restore {
     transform: translateY(0);
@@ -195,10 +203,9 @@ body {
     background-image: url(./assets/images/pubgP1.jpg);
     background-position: 0 0;
     height: 100vh;
-    padding-bottom: 200px;
   }
   .hero-box {
-    margin-top: 100px;
+    margin-top: 150px;
     grid-template-columns: 1fr;
   }
   .hero-content {
