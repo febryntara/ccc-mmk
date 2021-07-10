@@ -157,9 +157,6 @@ a {
 body {
   /* background-color: red; */
 }
-.hero-container {
-  background-color: red;
-}
 /* MOBILE BREAKPOINTS START */
 @media (max-width:576px){
   /* NAVBAR START */
@@ -196,12 +193,12 @@ body {
   /* HERO CONTAINER START */
   .hero-container {
     background-image: url(./assets/images/pubgP1.jpg);
-    background-position: 0 -20px;
-    max-width: 576px;
-    height: 98vh;
+    background-position: 0 0;
+    height: 100vh;
+    padding-bottom: 200px;
   }
   .hero-box {
-    margin-top: 250px;
+    margin-top: 100px;
     grid-template-columns: 1fr;
   }
   .hero-content {
@@ -214,10 +211,11 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 30px);
     gap: 10px;
+    transform: translateX(-50px);
   }
   .hero-icons > img:last-child {
     position: inherit;
-    transform: translateX(200%);
+    transform: translateX(100%);
   }
   /* HERO CONTAINER END */
 }
