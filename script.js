@@ -6,17 +6,34 @@ const modalClose = document.querySelector(".modal-form > span");
 const modalLoading = document.querySelector(".modal-loading");
 const modalAlertS = document.querySelector(".modal-alert-success");
 const modalAlertF = document.querySelector(".modal-alert-fail");
+const preRegButton = document.querySelector(".preRegister-buttons > button");
+const popUpButton = document.querySelector(".popup-button");
+const popUpClose = document.querySelector(".popup-close");
+const popUp = document.querySelector(".popup-container");
 
 
 navToggle.addEventListener("click",function(){
     navItems.classList.toggle("nav-restore")
     modal.classList.remove("modal-restore")
 })
+navItems.addEventListener("click", function(){
+  navItems.classList.remove("nav-restore")
+})
 heroButton.addEventListener("click", function(){
     modal.classList.toggle("modal-restore")
 })
 modalClose.addEventListener("click", function(){
     modal.classList.toggle("modal-restore")
+})
+preRegButton.addEventListener("click", function(){
+  popUp.classList.toggle("popup-restore")
+})
+popUpButton.addEventListener("click", function(){
+  popUp.classList.toggle("popup-restore")
+  modal.classList.toggle("modal-restore")
+})
+popUpClose.addEventListener("click", function(){
+  popUp.classList.toggle("popup-restore")
 })
 
 

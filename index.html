@@ -15,7 +15,7 @@
   </head>
   <body>
     <!-- HERO CONTENT START -->
-    <div class="hero-container">
+    <div class="hero-container" id="home">
       <!-- NAV START -->
       <div class="nav-container">
         <div class="nav-logo">
@@ -26,7 +26,7 @@
           <a class="nav-item" href="#about">About Us</a>
           <a class="nav-item" href="#gameplay">Gameplay</a>
           <a class="nav-item" href="#pre-register">Pre Register</a>
-          <a class="nav-item" href="#release">Release</a>
+          <!-- <a class="nav-item" href="#release">Release</a> -->
           <img src="./assets/images/pubgP2.png" alt="" />
         </div>
         <div class="nav-toggle">
@@ -82,42 +82,6 @@
       </div>
     </div>
     <!-- HERO CONTENT END -->
-    <!-- MODAL PRE REGISTER START -->
-    <div class="modal-container">
-      <div class="modal-alert-success">
-        <p><strong>Register Succesfull!</strong> standby for New State!</p>
-      </div>
-      <div class="modal-alert-fail">
-        <p><strong>Register Failed!</strong> please try again!</p>
-      </div>
-      <form name="dataPreReg" class="modal-form">
-        <h3>PRE REGISTER</h3>
-        <p>Pre-register today to gain early access of the PUBG : New State.</p>
-        <input
-          class="modal-input"
-          type="email"
-          name="email"
-          placeholder="Type Your Email Here"
-          required
-        />
-        <input
-          class="modal-input"
-          type="text"
-          name="name"
-          placeholder="Type Your Name Here"
-        />
-        <button class="modal-button" type="submit">
-          <img
-            class="modal-loading"
-            src="./assets/icons/loading-buffering.gif"
-            alt=""
-          />
-          Submit
-        </button>
-        <span>X</span>
-      </form>
-    </div>
-    <!-- MODAL PRE REGISTER END -->
     <!-- ABOUT US START -->
     <div class="about-container">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
@@ -171,6 +135,90 @@
       </svg>
     </div>
     <!-- ABOUT US END -->
+    <!-- GAMEPLAY START -->
+    <div class="gameplay-container" id="gameplay">
+      <div class="gameplay-zigzag">
+        <img src="./assets/icons/zigzag.png" alt="">
+      </div>
+      <div class="gameplay-content">
+        <div class="title" id="about">
+          <h1>GAMEPLAY</h1>
+          <img src="./assets/icons/ARROW.png" alt="" />
+        </div>
+        <div class="gameplay-box">
+          <iframe
+            class="gameplay-video"
+            src="https://www.youtube.com/embed/lgk5XI21xjY"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+    <!-- GAMEPLAY END -->
+    <!-- PRE REGISTER START -->
+    <div class="preRegister-container" id="pre-register">
+      <div class="preRegister-title">
+        <h2>REGISTER NOW!!!</h2>
+        <h4>AND</h4>
+        <h3>GET EXCLUSIVE BENEFITS</h3>
+        <h5>Get a Limited Skin (Permanent) for Pre-Register</h5>
+      </div>
+      <div class="preRegister-buttons">
+        <button type="button">Pre Register</button>
+      </div>
+      <div class="preRegister-box">
+        <img src="./assets/images/pubg6.png" alt="">
+      </div>
+    </div>
+    <!-- PRE REGISTER END -->
+    <!-- MODAL PRE REGISTER START -->
+    <div class="modal-container">
+      <div class="modal-alert-success">
+        <p><strong>Register Succesfull!</strong> standby for New State!</p>
+      </div>
+      <div class="modal-alert-fail">
+        <p><strong>Register Failed!</strong> please try again!</p>
+      </div>
+      <form name="dataPreReg" class="modal-form">
+        <h3>PRE REGISTER</h3>
+        <p>Pre-register today to gain early access of the PUBG : New State.</p>
+        <input
+          class="modal-input"
+          type="email"
+          name="email"
+          placeholder="Type Your Email Here"
+          required
+        />
+        <input
+          class="modal-input"
+          type="text"
+          name="name"
+          placeholder="Type Your Name Here"
+        />
+        <button class="modal-button" type="submit">
+          <img
+            class="modal-loading"
+            src="./assets/icons/loading-buffering.gif"
+            alt=""
+          />
+          Submit
+        </button>
+        <span>X</span>
+      </form>
+    </div>
+    <!-- MODAL PRE REGISTER END -->
+    <!-- POPUP START -->
+    <div class="popup-container">
+      <button class="popup-close">X</button>
+      <h2>EXCLUSIVE REWARD!</h2>
+      <!-- <img src="./assets/images/pubg7.jpg" alt=""> -->
+      <img src="./assets/images/pubg8.png" alt="">
+      <button class="popup-button">Claim Now!</button>
+    </div>
+    <!-- POPUP END -->
     <script src="./script.js"></script>
   </body>
 </html>
