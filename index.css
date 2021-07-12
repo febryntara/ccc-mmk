@@ -206,9 +206,15 @@ a {
   display: flex;
 }
 .modal-alert-success {
-  background-color: chartreuse;
+  background-color: orange;
   padding: 5px 10px;
   display: none;
+  font-family: "Teko";
+}
+.modal-alert-success > strong {
+  font-family: pubg-font;
+  letter-spacing: 3px;
+  font-size: 1.1em;
 }
 .modal-alert-fail {
   background-color: rgb(255, 64, 64);
