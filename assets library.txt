@@ -9,20 +9,15 @@ https://www.google.com/imgres?imgurl=https://cdn.wallpapersafari.com/73/36/EHbif
 
 https://na.pubgesports.com/wp-content/themes/pubg-americas/assets/images/social-squad.png
 
-
-
-
 }
 
 video : {
 trailer : <iframe width="560" height="315" src="https://www.youtube.com/embed/lgk5XI21xjY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
 
 }
 
 fonts : {
 pubg-fonts : https://hyperpix.net/fonts/playerunknowns-battlegrounds-pubg-font/
 
-
+Teko : https://fonts.google.com/specimen/Teko?query=teko
 }
