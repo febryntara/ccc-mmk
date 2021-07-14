@@ -613,7 +613,7 @@ a {
     justify-self: center;
     width: 90px;
     display: grid;
-    grid-template-columns: repeat(3, 30px);
+    grid-template-columns: repeat(4, 22.5px);
     gap: 10px;
     transform: translateX(-50px);
   }
