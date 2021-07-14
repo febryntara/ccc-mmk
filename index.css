@@ -602,14 +602,14 @@ a {
     height: 100vh;
   }
   .hero-box {
-    margin-top: 100px;
+    margin-top: 70px;
     grid-template-columns: 1fr;
   }
   .hero-content {
     margin-right: 50px;
   }
   .hero-icons {
-    margin-top: 30px;
+    margin-top: 10px;
     justify-self: center;
     width: 90px;
     display: grid;
@@ -680,4 +680,11 @@ a {
   }
   /* POPUP CONTAINER END */
 }
+/* SMALL HEIGHT BREAKPOINT */
+@media (max-height:640px) {
+  .hero-container {
+    height: 100%;
+  }
+}
+/* SMALL HEIGHT BREAKPOINT */
 /* MOBILE BREAKPOINTS END */
