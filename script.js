@@ -10,12 +10,15 @@ const preRegButton = document.querySelector(".preRegister-buttons > button");
 const popUpButton = document.querySelector(".popup-button");
 // const popUpClose = document.querySelector(".popup-close");
 const popUp = document.querySelector(".popup-container");
+const cSoon = document.querySelector(".coming-soon");
+const appStore = document.querySelector(".footer-sources > a:nth-child(2)");
 
 
 navToggle.addEventListener("click",function(){
     navItems.classList.toggle("nav-restore")
     modal.classList.remove("modal-restore")
     popUp.classList.remove("popup-restore")
+    cSoon.classList.remove("popup-restore")
 })
 navItems.addEventListener("click", function(){
   navItems.classList.remove("nav-restore")
@@ -36,6 +39,12 @@ popUp.addEventListener("click", function(){
 popUpButton.addEventListener("click", function(){
   // popUp.classList.toggle("popup-restore")
   modal.classList.toggle("modal-restore")
+})
+appStore.addEventListener("click", function(){
+  cSoon.classList.toggle("popup-restore")
+})
+cSoon.addEventListener("click", function(){
+  cSoon.classList.remove("popup-restore")
 })
 
 
