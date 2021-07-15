@@ -234,20 +234,23 @@ a {
   position: relative;
   border: 2px solid orange;
   border-radius: 10px;
+  background-color: rgba(0, 4, 13,.4);
 }
 .modal-form > * {
   background-color: transparent;
+  color: white;
 }
+
 .modal-form > h3 {
   font-family: pubg-font;
   letter-spacing: 2px;
   /* color: black; */
-  color: white;
+  /* color: white; */
   margin-bottom: 5px;
 }
 .modal-form > p {
   /* color: black; */
-  color: white;
+  /* color: white; */
   font-family: "Teko";
   text-align: center;
   font-size: 0.8em;
@@ -262,12 +265,14 @@ a {
   border-radius: 10px;
   cursor: pointer;
   /* color: black; */
-  color: white;
+  /* color: white; */
 }
 .modal-input {
   margin: 10px 15px;
   width: 150px;
   height: 30px;
+  border: 1px solid white;
+  border-radius: 5px;
 }
 .modal-button {
   width: 100px;
@@ -278,7 +283,7 @@ a {
   /* background-color: black; */
   background-color: orange;
   border: unset;
-  color: white;
+  /* color: white; */
   font-family: pubg-font;
   letter-spacing: 2px;
   cursor: pointer;

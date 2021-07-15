@@ -15,6 +15,7 @@ const popUp = document.querySelector(".popup-container");
 navToggle.addEventListener("click",function(){
     navItems.classList.toggle("nav-restore")
     modal.classList.remove("modal-restore")
+    popUp.classList.remove("popup-restore")
 })
 navItems.addEventListener("click", function(){
   navItems.classList.remove("nav-restore")
