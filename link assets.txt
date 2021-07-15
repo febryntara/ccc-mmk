@@ -1,0 +1,42 @@
+icons {
+https://www.flaticon.com/
+https://newstate.pubg.com/
+}
+
+images {
+https://www.freepik.com/
+https://newstate.pubg.com/index.html#
+https://images.app.goo.gl/bZjJo6uVX8ecqoBK7
+https://images.app.goo.gl/9jwfGtJcib8JX9So9
+https://images.app.goo.gl/khExLgmXULh4Pbik8
+https://images.app.goo.gl/JjREa11wrDDJ9nPP9
+https://images.app.goo.gl/7ePfQap1PBdyp76u7
+https://images.app.goo.gl/7sHkjtKpgAoQ33Fo7
+}
+
+logo {
+https://press.pubg.com/tr/pubg-newstate/Focus/PUBG-NEW-STATE-Logo
+}
+
+favicon {
+https://newstate.pubg.com/asset/favicon.png
+}
+
+video {
+https://www.youtube.com/embed/lgk5XI21xjY
+}
+
+font {
+pubg-font: https://hyperpix.net/fonts/playerunknowns-battlegrounds-pubg-font/
+teko : https://fonts.googleapis.com/css2?family=Teko&display=swap
+}
+
+link {
+https://www.instagram.com/pubgnewstate/
+https://twitter.com/pubg_newstate
+https://www.youtube.com/channel/UCnEaSfPj9ETzrySiRSD1Q1g
+https://www.facebook.com/OfficialPUBGNEWSTATE.INDONESIA/?brand_redir=105448151417778
+https://www.krafton.com/en/index.html
+https://play.google.com/store/apps/details?id=com.pubg.newstate
+
+}
