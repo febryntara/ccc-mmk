@@ -603,6 +603,7 @@ a {
   .hero-container {
     background-image: url(./assets/images/pubgP1.jpg);
     background-position: center;
+    background-attachment: inherit;
     width: 100%;
     height: 100vh;
   }
@@ -639,6 +640,7 @@ a {
   /* ABOUT CONTAINER START */
   .about-container {
     background-position-x: -60px;
+    background-attachment: inherit;
     width: 100%;
   }
   .about-zigzag {
