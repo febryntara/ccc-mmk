@@ -556,6 +556,11 @@ a {
   .nav-container {
     box-sizing: border-box;
     justify-items: right;
+    /* background-color: rgba(0, 4, 13,.2);
+    width: 100%; */
+  }
+  .nav-logo {
+    /* margin-left: 5px; */
   }
   .nav-items {
     /* position: relative; */
@@ -622,6 +627,9 @@ a {
   }
   /* HERO CONTAINER END */
   /* MODAL PRE REGISTER START */
+  .modal-container {
+    background-position: right;
+  }
   .modal-form {
     width: 80%;
     padding: 50px 10px;
