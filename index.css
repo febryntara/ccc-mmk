@@ -646,6 +646,7 @@ a {
   /* MODAL PRE REGISTER START */
   .modal-container {
     background-position: right;
+    background-image: url(./assets/images/pubgP3.png);
   }
   .modal-form {
     width: 80%;
