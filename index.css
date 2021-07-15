@@ -641,6 +641,8 @@ a {
   .about-container {
     background-position-x: -60px;
     background-attachment: inherit;
+    background-image: url(./assets/images/pubg5.jpg);
+    background-position: center;
     width: 100%;
   }
   .about-zigzag {
